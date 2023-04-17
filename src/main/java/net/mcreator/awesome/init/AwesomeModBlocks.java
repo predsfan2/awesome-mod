@@ -11,11 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.awesome.block.TestPortalBlock;
-import net.mcreator.awesome.block.PortalblockBlock;
 import net.mcreator.awesome.AwesomeMod;
 
 public class AwesomeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AwesomeMod.MODID);
 	public static final RegistryObject<Block> TEST_PORTAL = REGISTRY.register("test_portal", () -> new TestPortalBlock());
-	public static final RegistryObject<Block> PORTALBLOCK = REGISTRY.register("portalblock", () -> new PortalblockBlock());
 }

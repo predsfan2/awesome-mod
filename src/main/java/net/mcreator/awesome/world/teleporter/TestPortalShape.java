@@ -15,6 +15,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.BlockUtil;
 
+import net.mcreator.awesome.init.AwesomeModItems;
 import net.mcreator.awesome.init.AwesomeModBlocks;
 
 import javax.annotation.Nullable;
@@ -28,7 +29,7 @@ public class TestPortalShape {
 	private static final int MIN_HEIGHT = 3;
 	public static final int MAX_HEIGHT = 21;
 	private static final BlockBehaviour.StatePredicate FRAME = (p_77720_, p_77721_, p_77722_) -> {
-		return p_77720_.getBlock() == AwesomeModBlocks.PORTALBLOCK.get();
+		return p_77720_.getBlock() == AwesomeModItems.DELETED_MOD_ELEMENT.get();
 	};
 	private final LevelAccessor level;
 	private final Direction.Axis axis;
