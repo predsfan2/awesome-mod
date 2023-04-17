@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.awesome.init.AwesomeModItems;
+import net.mcreator.awesome.init.AwesomeModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -47,6 +50,9 @@ public class AwesomeMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AwesomeModBlocks.REGISTRY.register(bus);
+		AwesomeModItems.REGISTRY.register(bus);
 
 	}
 

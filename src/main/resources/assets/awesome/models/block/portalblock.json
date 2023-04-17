@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awesome:blocks/portal_block",
+    "up": "awesome:blocks/portal_block",
+    "north": "awesome:blocks/portal_block",
+    "east": "awesome:blocks/portal_block",
+    "south": "awesome:blocks/portal_block",
+    "west": "awesome:blocks/portal_block",
+    "particle": "awesome:blocks/portal_block"
+  },
+  "render_type": "solid"
+}
